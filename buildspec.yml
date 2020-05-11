@@ -5,3 +5,10 @@ phases:
     commands:
       - yarn
       - yarn test
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: './'
+  name: past-papers
+  discard-paths: no
