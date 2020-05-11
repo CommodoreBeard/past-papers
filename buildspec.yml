@@ -1,9 +1,7 @@
 version: 0.2
 
 phases:
-  install:
+  build:
     commands:
       - yarn
-  test:
-    commands:
       - yarn test
