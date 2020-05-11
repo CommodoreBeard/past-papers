@@ -1,0 +1,7 @@
+version: 0.0
+Resources:
+  - pastPapers:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "past-papers"
+        Alias: "past-papers"
