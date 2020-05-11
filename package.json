@@ -1,0 +1,26 @@
+{
+  "name": "past-papers",
+  "version": "1.0.0",
+  "description": "past-papers app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommodoreBeard/past-papers.git"
+  },
+  "author": "CommodoreBeard <joe@joehughes.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CommodoreBeard/past-papers/issues"
+  },
+  "homepage": "https://github.com/CommodoreBeard/past-papers#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
